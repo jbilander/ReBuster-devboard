@@ -1,5 +1,8 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+Thumbs.db
+.DS_Store
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
@@ -27,3 +30,12 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+### KiCad Patch ###
+rescue-backup/
+
+*.tsv
+bom/
+
+# Gerber export output
+out/
